@@ -50,6 +50,7 @@ public class Main {
     }
 
     public static void mostrarUsuarios() {
+        System.out.println("Mostrando usuarios...");
         for (int i = 0; i < listaUsuarios.size(); i++) {
             System.out.println(i + ": " + listaUsuarios.get(i));
         }
