@@ -56,6 +56,7 @@ public class Main {
     }
 
     public static void editarUsuario() {
+        System.out.println("Editando usuario...");
         mostrarUsuarios();
 
         System.out.print("Seleccione índice: ");
