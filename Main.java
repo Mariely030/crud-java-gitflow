@@ -76,6 +76,7 @@ public class Main {
     }
 
     public static void eliminarUsuario() {
+        System.out.println("Eliminando usuario....");
         mostrarUsuarios();
 
         System.out.print("Seleccione índice: ");
