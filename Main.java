@@ -44,6 +44,7 @@ public class Main {
 
         System.out.print("Edad: ");
         int edad = sc.nextInt();
+        sc.nextLine(); 
 
         listaUsuarios.add(new Usuario(nombre, edad));
         System.out.println("Usuario agregado.");
