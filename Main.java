@@ -39,6 +39,8 @@ public class Main {
     }
 
     public static void crearUsuario() {
+        System.out.println("Creando usuario...");
+
         System.out.print("Nombre: ");
         String nombre = sc.nextLine();
 
